@@ -14,7 +14,7 @@ export const addTodo = (payload) => {
   };
 };
 
-export const deleteTodo = (payload) => {
+export const deleleTodo = (payload) => {
   return {
     type: DELETE_TODO,
     payload,
